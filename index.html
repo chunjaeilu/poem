@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>명시모음</title>
+    <style>
+        body {
+            font-family: "Noto Sans KR", sans-serif;
+            background-image: url(./images/watercolor.webp);
+            background-size: 3em;
+        }
+        #container {
+            width: 1000px;
+            margin: 0 auto;
+        }
+        #menu {
+            border-top: 1px solid darkslategray;
+            border-bottom: 1px solid darkslategray;
+        }
+        h1 {
+            margin-left: 20px;
+            font-size: 30px;
+        }
+        h2 {
+            margin-left: 20px;
+            font-size: 16px;
+            text-shadow: 5px 5px 5px beige;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        .poems {
+            width: 500px;
+            margin: 0 auto;
+        }
+        p {
+            text-align: center;
+            line-height: 1.8em;
+            text-shadow: 5px 5px 5px beige;
+        }
+        .title {
+            width: 500px;
+            text-align: center;
+            font-size: larger;
+            margin: -30px 0px 0px 0px;
+            color: white;
+            text-shadow: 1px 1px 5px black,
+            1px -1px 5px black,
+            -1px 1px 5px black,
+            -1px -1px 5px black;
+        }
+        .bookmarks {
+            width: 600px;
+            margin: 0 auto;
+            border: 2px dotted darkslategray ;
+            border-radius: 100px;
+            margin-top: 30px;
+            padding: 5px;
+        }
+        .poet {
+            text-align: right;
+            font-weight: bold;
+        }
+        .gohome {
+            position: fixed;
+            bottom: 0%;
+            right: 80px;
+        }
+        .poem1_img {
+            width: 600px;
+            height: 400px;
+            border-radius: 92px 92px 0px 0px;
+            background-image: url(./images/fall.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 0 150%;
+        }
+        .poem2_img {
+            width: 600px;
+            height: 400px;
+            border-radius: 92px 92px 0px 0px;
+            background-image: url(./images/flower.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 0 50%;
+        }
+        .poem3_img {
+            width: 600px;
+            height: 400px;
+            border-radius: 92px 92px 0px 0px;
+            background-image: url(./images/letter.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 0 70%;
+        }
+        .small_bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1 id="home">명시모음&nbsp;<img src="./images/bookmark.svg" alt="bookmark" width="30px"></h1>
+            <div id="menu">
+                <h2>
+                    <a href="#poem1">가을날</a> &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#poem2">내가 만든 꽃다발</a> &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#poem3">그리운 우체국</a>
+                </h2>
+            </div>
+        </div>
+        <div id="poem1" class="bookmarks">
+            <div class="poem1_img"></div>
+            <div class="poems">
+                <h2 class="title">가을날</h2>
+                <p class="poet">헤르만 헤세</p>
+                <p>
+                    숲 가의 가지들 금빛에 타오를 때 <br>
+                    나는 홀로 길을 갑니다 <br>
+                    사랑하는 이와 함께 <br>
+                    몇 번이나 둘이서 걸었습니다
+                </p>
+                <p>
+                    이 좋은 날에 <br>
+                    오랫 동안 마음에 지니고 있던 <br>
+                    행복도 슬픔도 나에게서 <br>
+                    이제 먼 향기 속으로 사라졌습니다                
+                </p>
+                <p>
+                    잔디풀 태우는 연기 속에서 <br>
+                    농부의 아이들이 뛰어 놉니다 <br>
+                    거기 나도 끼어들어 어린이와 더불어 <br>
+                    가락 맞춰 노래 합니다
+                </p>
+            </div>
+        </div>
+        <div id="poem2" class="bookmarks">
+            <div class="poem2_img"></div>
+            <div class="poems">
+                <h2 class="title">내가 만든 꽃다발</h2>
+                <p class="poet">삐에르 드 롱사르</p>
+                <p>
+                    활짝 핀 꽃을 꺾어서 꽃다발을 바칩니다 <br>
+                    이 저녁 꺾지 않으면 <br>
+                    내일이면 시들 이 꽃들을 <br>
+                    그대는 이걸 보고 느끼겠지요 <br>
+                    아름다움은 머지않아 모두 시들고 <br>
+                    꽃과 같이 순간에 죽으리라고 <br>
+                    그대여 세월은 갑니다 <br>
+                    세월은 갑니다 <br>
+                    아니 세월이 아니라 우리가 갑니다 <br>
+                    그리고 곧 묘비 아래 눕습니다 <br>
+                    우리 속삭이는 사랑도 <br>
+                    죽은 뒤에는 아무 것도 아니랍니다 <br>
+                    나에게 사랑을 주세요 <br>
+                    그대 살아 있는 아름다운 동안에 <br>
+            </div>
+        </div>
+        <div id="poem3" class="bookmarks">
+            <div class="poem3_img">
+            </div>
+            <div class="poems">
+                <h2 class="title">그리운 우체국</h2>
+                <p class="poet">류근</p>
+                <p>
+                    옛사랑 여기서 얼마나 먼지 <br>
+                    술에 취하면 나는 문득 우체국 불빛이 그리워지고 <br>
+                    선량한 등불에 기대어 엽서 한 장 쓰고 싶으다 <br>
+                    내게로 왔던 모든 이별들 위에 <br>
+                    깨끗한 우표 한 장 붙여주고 싶으다 <br>
+                    지금은 내 오랜 신열의 손금 위에도 <br>
+                    꽃이 피고 바람이 부는 시절 <br>
+                    낮은 지붕들 위로 별이 지나고 <br>
+                    길에서 늙은 나무들은 우편배달부처럼 <br>
+                    다시 못 만날 구름들을 향해 잎사귀를 흔든다 <br>
+                    흔들릴 때 스스로를 흔드는 것들은 <br>
+                    비로소 얼마나 따사로운 틈새를 만드는가 <br>
+                    아무도 눈치채지 못하는 이별이 너무 흔해서 <br>
+                    살아갈수록 내 가슴엔 강물이 깊어지고 <br>
+                    돌아가야 할 시간은 철길 건너 세상의 변방에서 <br>
+                    안개의 입자들처럼 몸을 허문다 옛사랑 <br>
+                    추억 쪽에서 불어오는 노래의 흐린 풍경들 사이로 <br>
+                    취한 내 눈시울조차 무게를 허문다 아아, <br>
+                    이제 그리운 것들은 모두 해가 지는 곳 어디쯤에서 <br>
+                    그리운 제 별자리를 매달아두었으리라 <br>
+                    차마 입술을 떠나지 못한 이름 하나 눈물겨워서 <br>
+                    술에 취하면 나는 다시 우체국 불빛이 그리워지고 <br>
+                    거기 서럽지 않은 등불에 기대어 <br>
+                    엽서 한 장 사소하게 쓰고 싶으다 <br>
+                    내게로 왔던 모든 이별들 위에 <br>
+                    깨끗한 안부 한 잎 부쳐주고 싶으다 <br>                    
+                </p>
+            </div>
+        </div>
+    </div>
+    <a class="gohome" href="#home"><ruby><img src="./images/circle_up.png" alt="return to home"><rt><span class="small_bold">Home</span></rt></ruby></a>
+</body>
+</html>
